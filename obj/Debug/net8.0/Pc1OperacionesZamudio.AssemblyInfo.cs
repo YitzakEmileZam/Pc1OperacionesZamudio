@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pc1OperacionesZamudio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3aba9cdf477790273332357632e335a17d3de38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b2b47c765a91ee2295087891474dd30cc00016")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pc1OperacionesZamudio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pc1OperacionesZamudio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

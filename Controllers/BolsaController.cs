@@ -9,7 +9,7 @@ using Pc1OperacionesZamudio.Models;
 
 namespace Pc1OperacionesZamudio.Controllers
 {
-    [Route("[Bolsa]")]
+    [Route("Bolsa")]
     public class BolsaController : Controller
     {
         private readonly ILogger<BolsaController> _logger;
@@ -29,10 +29,13 @@ namespace Pc1OperacionesZamudio.Controllers
         [HttpPost("Invertir")]
         public IActionResult Invertir(Operacion operacion){
             operacion.IGV = operacion.MontoAbonar * 0.18M;
-            if (operacion.MontoAbonar > 300)
-                operacion.Comision = 1;
-            else
-                operacion.Comision = 3;
+           if (operacion.MontoAbonar > 300)
+           {
+            operacion.Comision = 1;
+           }else
+           {
+            operacion.Comision = 3;
+           }
             
 
             operacion.TotalPagar = operacion.MontoAbonar + operacion.IGV + operacion.Comision;    
