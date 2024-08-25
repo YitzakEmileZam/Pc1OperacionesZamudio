@@ -28,3 +28,4 @@ E:\Programacion1\PC1-teoria\Pc1OperacionesZamudio\obj\Debug\net8.0\refint\Pc1Ope
 E:\Programacion1\PC1-teoria\Pc1OperacionesZamudio\obj\Debug\net8.0\Pc1OperacionesZamudio.pdb
 E:\Programacion1\PC1-teoria\Pc1OperacionesZamudio\obj\Debug\net8.0\Pc1OperacionesZamudio.genruntimeconfig.cache
 E:\Programacion1\PC1-teoria\Pc1OperacionesZamudio\obj\Debug\net8.0\ref\Pc1OperacionesZamudio.dll
+E:\Programacion1\PC1-teoria\Pc1OperacionesZamudio\obj\Debug\net8.0\Pc1OperacionesZamudio.sourcelink.json
