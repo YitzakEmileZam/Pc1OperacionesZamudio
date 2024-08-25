@@ -1,0 +1,32 @@
+@model Pc1OperacionesZamudio.Models.Operacion;
+
+<h2>Aquí podrá operar en la bolsa</h2>
+
+
+<form asp-action="Invertir" method="post">
+    <div>
+        <label>Nombre y Apellido</label>
+        <input type="text" asp-for="Nombre" />
+    </div>
+    <div>
+        <label>Correo electrónico</label>
+        <input type="email" asp-for="Correo" />
+    </div>
+    <div>
+        <label>Fecha de Operación</label>
+        <input type="text" asp-for="FechaOperacion" />
+    </div>
+    <div>
+        <label>Instrumentos</label><br />
+        <input type="checkbox" asp-for="SP500" /> S&P 500<br />
+        <input type="checkbox" asp-for="DowJones" /> Dow Jones<br />
+        <input type="checkbox" asp-for="BonusUS" /> Bonos US
+    </div>
+    <div>
+        <label>Monto Abonar</label>
+        <input type="number" asp-for="MontoAbonar" />
+    </div>
+    <div>
+        <button type="submit">Invertir</button>
+    </div>
+</form>

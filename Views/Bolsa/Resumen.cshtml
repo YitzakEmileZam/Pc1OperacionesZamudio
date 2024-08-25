@@ -1,0 +1,46 @@
+@model Pc1OperacionesZamudio.Models.Operacion;
+
+<h2>Resumen de su operación</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Instrumento</th>
+            <th>IGV</th>
+            <th>Monto</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.SP500)
+        {
+            <tr>
+                <td>S&P 500</td>
+                <td>@Model.IGV</td>
+                <td>$500</td>
+            </tr>
+        }
+        @if (Model.DowJones)
+        {
+            <tr>
+                <td>Dow Jones</td>
+                <td>@Model.IGV</td>
+                <td>$300</td>
+            </tr>
+        }
+        @if (Model.BonusUS)
+        {
+            <tr>
+                <td>Bonos US</td>
+                <td>@Model.IGV</td>
+                <td>$120</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <strong>Comisión:</strong> @Model.Comision
+</div>
+<div>
+    <strong>Total a Pagar:</strong> @Model.TotalPagar
+</div>
